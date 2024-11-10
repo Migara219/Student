@@ -1,4 +1,4 @@
-package Service;
+package com.example.Student.Service.Impl;
 
 import java.util.List;
 import java.util.Optional;
@@ -6,8 +6,9 @@ import java.util.Optional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import Entity.Student;
-import Repository.StudentRepository;
+import com.example.Student.Entity.Student;
+import com.example.Student.Repository.StudentRepository;
+import com.example.Student.Service.StudentService;
 
 @Service
 public class StudnetServiceImpl implements StudentService {
